@@ -1,0 +1,34 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/Hero.js",
+        "src/Ladder.js",
+        "src/Background.js",
+        "src/Stage0.js",
+        "src/Stage1.js",
+        "src/Spike.js",
+        "src/Flame.js",
+        "src/Stage2.js",
+        "src/Stage3.js",
+        "src/GameOver.js",
+        "src/Opening.js",
+        "src/StageBoss.js",
+        "src/BossBeam.js",
+        "src/Boss.js",
+        "src/Switch.js",
+        "src/Tutorial.js",
+        "src/BossCutScene.js",
+        "src/Ending.js"
+    ]
+}
